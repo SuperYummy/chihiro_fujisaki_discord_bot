@@ -1,0 +1,6 @@
+blank_lines_upper_bound = 1
+blank_lines_lower_bound = 0
+indent_style = "Block"
+fn_args_layout = "Vertical"
+brace_style = "AlwaysNextLine"
+overflow_delimited_expr = true

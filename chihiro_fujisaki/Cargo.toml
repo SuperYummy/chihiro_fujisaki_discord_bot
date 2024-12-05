@@ -1,0 +1,15 @@
+[package]
+name = "chihiro_fujisaki"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+chihiro_fujisaki-alter_ego = { path = "../chihiro_fujisaki-alter_ego" }
+dotenv = "0.15"
+futures = "0.3.21"
+tokio = { default-features = false, features = ["macros", "rt-multi-thread"], version = "1.0"}
+twilight-cache-inmemory = "0.15.4"
+twilight-gateway = "0.15.4"
+twilight-http = "0.15.4"
+twilight-model = "0.15.4"
